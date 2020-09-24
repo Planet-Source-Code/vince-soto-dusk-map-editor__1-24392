@@ -1,0 +1,183 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\Dusk Editor 2.0 Package
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+
+[Package|Dep File 1|Files Added]
+
+[Package|Dep File 1|Files Removed]
+
+[Package|Dep File 1|Files In Project]
+C:\WINDOWS\Desktop\VB Samples\Dusk Editor 2.0\Dusk Map Editor.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\PICCLP32.OCX=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=
+
+[Package|Dep File 1|Install Locations]
+C:\WINDOWS\Desktop\VB Samples\Dusk Editor 2.0\Dusk Map Editor.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\PICCLP32.OCX=$(WinSysPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=
+
+[Package|Dep File 1|DepFile]
+DepCabFile=Dusk Map Editor.CAB
+DepCabRun=Dusk Map Editor.INF
+
+[Package|Dep File 1|Package]
+PackageFolder=C:\WINDOWS\Desktop\Dusk Editor 2.0 Package
+ProjectFolder=C:\WINDOWS\Desktop\VB Samples\Dusk Editor 2.0
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\Dusk Editor 2.0 Package\Dusk Map Editor.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\Dusk Editor 2.0 Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+C:\WINDOWS\Desktop\Dusk Editor 2.0\Readme.txt=
+C:\WINDOWS\Desktop\Dusk Editor 2.0\Smallmap.map=
+C:\WINDOWS\Desktop\Dusk Editor 2.0\original map.gif=
+C:\WINDOWS\Desktop\Dusk Editor 2.0\worldview.bmp=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\PICCLP32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\Desktop\Dusk Editor 2.0\Dusk Map Editor.exe=Yes
+C:\WINDOWS\Desktop\Dusk Editor 2.0\Readme.txt=Yes
+C:\WINDOWS\Desktop\Dusk Editor 2.0\Smallmap.map=Yes
+C:\WINDOWS\Desktop\Dusk Editor 2.0\original map.gif=Yes
+C:\WINDOWS\Desktop\Dusk Editor 2.0\worldview.bmp=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\WINDOWS\Desktop\VB Samples\Dusk Editor 2.0\Dusk Map Editor.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\PICCLP32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\Desktop\Dusk Editor 2.0\Dusk Map Editor.exe=$(AppPath)
+C:\WINDOWS\Desktop\Dusk Editor 2.0\Readme.txt=$(AppPath)
+C:\WINDOWS\Desktop\Dusk Editor 2.0\Smallmap.map=$(AppPath)
+C:\WINDOWS\Desktop\Dusk Editor 2.0\original map.gif=$(AppPath)
+C:\WINDOWS\Desktop\Dusk Editor 2.0\worldview.bmp=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\VB Samples\Dusk Editor 2.0\Dusk Map Editor.exe=Yes
+C:\WINDOWS\Desktop\Dusk Editor 2.0\Dusk Map Editor.exe=No
+C:\WINDOWS\Desktop\Dusk Editor 2.0\Readme.txt=No
+C:\WINDOWS\Desktop\Dusk Editor 2.0\Smallmap.map=No
+C:\WINDOWS\Desktop\Dusk Editor 2.0\original map.gif=No
+C:\WINDOWS\Desktop\Dusk Editor 2.0\worldview.bmp=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Dusk Map Editor
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=DuskMapEditor
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|DuskMapEditor]
+Icon1="Dusk Map Editor.exe"
+Title1=Dusk Map Editor
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\WINDOWS\Desktop\Dusk Editor 2.0 Package
+ProjectFolder=C:\WINDOWS\Desktop\Dusk Editor 2.0
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\Dusk Editor 2.0 Package\setup.exe
+File2=C:\WINDOWS\Desktop\Dusk Editor 2.0 Package\Setup.Lst
+File3=C:\WINDOWS\Desktop\Dusk Editor 2.0 Package\Dusk Map Editor.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
